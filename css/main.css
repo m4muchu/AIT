@@ -1,0 +1,83 @@
+.main-header {
+    background: url(../img/main-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    min-height: 600px;
+    color: white;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  .main-header .showcase {
+    padding-top: 200px;
+    position: relative;
+  }
+
+  .primary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  
+  @media (max-width: 600px) {
+    /* if width below 600 it will happen */
+    .main-header {
+      height: 50vh;
+    }
+  }
+
+  .section-services span {
+    color: #5dc302;
+  }
+
+  .font-color {
+    color: #5dc302;
+  }
+
+  .btn-color {
+      background-color:#5dc302; 
+  }
+
+  .section-services {
+    margin-top: 40px;
+  }
+
+  .card {
+    background: #fff;
+  }
+  
+  .row-1 .card {
+    height: 350px;
+  }
+
+  
+  .section-services .card .card-image {
+    padding-bottom: 10px !important;
+  }
+
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    /* transform: translateZ(0); */
+  
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.1);
+  }
+
+  .modal-content p {
+      padding: 20px;
+      font-size: 20px;
+  }
