@@ -49,6 +49,7 @@
 
   .card {
     background: #fff;
+    padding: 3px;
   }
   
   .row-1 .card {
