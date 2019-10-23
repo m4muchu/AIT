@@ -184,4 +184,15 @@
       .economy-card .carousel{
           height: 400px !important;
       }
+
+      .carousel-item>img{
+        height: 200px ;
+        object-fit: contain;
+      }
+      .economy-card .car_feature_icons .economy-icons>div{
+        text-align: unset;
+        margin-left: auto;
+        margin-right: auto;
+        padding: unset;
+    }
   }
