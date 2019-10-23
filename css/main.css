@@ -39,6 +39,10 @@
     .main-header {
       height: 50vh;
     }
+
+    .economy-card{
+        height: 300px;
+    }
   }
 
   .section-about .about-1,
