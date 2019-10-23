@@ -40,9 +40,9 @@
       height: 50vh;
     }
 
-    .economy-card{
+    /* .economy-card{
         height: 300px;
-    }
+    } */
   }
 
   .section-about .about-1,
@@ -121,15 +121,37 @@
     z-index: 1;
   }
 
-
   .economy-card {
       margin-top: 5%;
-      height: 900px;
+      height: auto;
   }
+
+  .economy-card .carousel{
+      height: 500px;
+  }
+
+  .carousel-item>img{
+    height: 500px;
+    object-fit: contain;
+  }
+
+  .economy-card .car_feature_heading{
+      text-align: center;
+  }
+
+  .economy-card .car_feature_icons .economy-icons>div{
+    text-align: center;
+    margin: unset;
+    padding: unset;
+}
 
   .car-feature-font{
     margin-left: 3%;
 
+  }
+
+  .car_feature_heading{
+      text-align: center;
   }
 
   .economy-icons {
@@ -156,4 +178,10 @@
 
   .carousel .indicators .indicator-item {
       background: red;
+  }
+
+  @media screen and (max-width:600px){
+      .economy-card .carousel{
+          height: 400px !important;
+      }
   }
