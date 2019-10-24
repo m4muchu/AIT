@@ -115,6 +115,12 @@
     position: relative;
     background: url(../img/map.png);
   }
+
+  .card .custom-car>img{
+    height: 220px;
+    width: 330px;
+    object-fit: contain;
+  }
   
   .section-contact .card-panel {
     position: relative;
