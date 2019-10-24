@@ -118,7 +118,6 @@
 
   .card .custom-car>img{
     height: 220px;
-    width: 330px;
     object-fit: contain;
   }
   
